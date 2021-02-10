@@ -89,18 +89,26 @@ body{
 
 .non_click_button{
     text-align: center;
-    font-size: 22px;
-    border: 5px solid black;
+    /* font-size: 16px;
+    font-family: sans-serif; */
+    border: 3px solid black;
     border-style: double;
-    width: 175px;
-    height: 30px;
+    width: 170px;
+    height: 35px;
     color:black;
     /* text-align: center; */
-    text-decoration: none;
+    /* text-decoration: none; */
     display: inline-block;
     background-color: white;
     cursor: pointer;
     margin-left: 490px;
+}
+
+#book_your_reservation{
+    font-size: 14px;
+    font-family:sans-serif;
+    font-weight: lighter;
+    margin-top: 12px;
 }
 
 #explore{
